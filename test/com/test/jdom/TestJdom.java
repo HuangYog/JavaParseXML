@@ -1,6 +1,6 @@
 package com.test.jdom;
 
-import com.parseXML.jdom.ReadAndWriteXML;
+import com.parse.jdom.ReadAndWriteXML;
 import org.junit.Test;
 
 /**
