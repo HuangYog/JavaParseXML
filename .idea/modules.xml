@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
-    <modules />
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaParseXML.iml" filepath="$PROJECT_DIR$/JavaParseXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdomDemo/jdomDemo.iml" filepath="$PROJECT_DIR$/jdomDemo/jdomDemo.iml" />
+    </modules>
   </component>
 </project>

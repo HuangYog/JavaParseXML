@@ -14,7 +14,7 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * Created by Top on 2015/2/3.
+ * Created by HuangYog on 2015/2/3.
  * JDom 读写xml文件
  */
 public class ReadAndWriteXML {
@@ -39,11 +39,11 @@ public class ReadAndWriteXML {
         //获取root下的属性
         List<Attribute> attrs = root.getAttributes();
         if (attrs!=null && attrs.size()>0){
-            System.out.println(prefix);
+            System.err.print(prefix);
             for (Attribute attr:attrs){
-                System.out.println(attr.getValue()+" ");
+                System.err.print(attr.getValue() + " ");
             }
-            System.out.println();//换行
+            System.err.println();//换行
         }
         //获取其他节点
         List<Element> childNodes = root.getChildren();

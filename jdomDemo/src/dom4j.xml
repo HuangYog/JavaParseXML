@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university name="tsu"><!--這是个节点-->
+    <college name="CCCC">text</college>
+</university>
